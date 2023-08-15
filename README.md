@@ -7,9 +7,8 @@ IMPORTANT:
   https://github.com/google/gson
 
 
-How to use:
-```
-  JSkyAuctionAPI lib = new JSkyAuctionAPI();
+How to use (an example program to calculate profits):
+```JSkyAuctionAPI lib = new JSkyAuctionAPI();
   
   MoulBerryAuctionData lowest = lib.getLowestBINs();
   AuctionData auctions = lib.getPage(0);
