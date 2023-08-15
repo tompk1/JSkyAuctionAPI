@@ -2,12 +2,11 @@
 A library which aims to make the Hypixel and MoulBerry API easier to use in java.
 ````
 IMPORTANT:
+```` This library uses GSON a working build of GSON can be found in the lib folder!
+     https://github.com/google/gson
+
 ````
-  This library uses GSON a working build of GSON can be found in the lib folder!
-  https://github.com/google/gson
-
-
-How to use (an example program to calculate profits):
+How to use (an example program to calculate profits):````
 ```JSkyAuctionAPI lib = new JSkyAuctionAPI();
   
   MoulBerryAuctionData lowest = lib.getLowestBINs();
